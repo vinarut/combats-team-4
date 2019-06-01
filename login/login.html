@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login page</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="../script.js"></script>
+    <script src="../helpers.js"></script>
     <script src="./script.js"></script>
 </head>
 <body class="auth-body">
     <form action="" method="post" class="auth-form">
-        <input type="text" name="login" class="auth-body__input" placeholder="Логин">
+        <input type="text" name="login" class="auth-body__input-login auth-body__input" placeholder="Логин">
+        <input type="password" name="password" class="auth-body__input-password auth-body__input" placeholder="Пароль">
         <div class="auth-body__wrapper-for-buttons">
-            <button type="submit" class="auth-body__btn-login">Войти</button>
-            <button type="submit" class="auth-body__btn-registration">Регистрация</button>
+            <button class="auth-body__btn-login">Войти</button>
+            <button class="auth-body__btn-registration">Регистрация</button>
         </div>
     </form>
 </body>

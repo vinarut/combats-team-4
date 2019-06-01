@@ -32,13 +32,15 @@
     display: -ms-flexbox;
     justify-content: center;
 }
-.auth-body__btn-login{
+
+
+.auth-body__btn-registration{
     margin: 10px;
     height: 30px;
     width: 50%;
 }
 
-.auth-body__btn-registration{
+.auth-body__btn-login{
     margin: 10px;
     height: 30px;
     width: 50%;
