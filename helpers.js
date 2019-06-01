@@ -20,6 +20,7 @@ function onDOMReady(handler){
 }
 */
 function AJAX(configObject){
+    var configObject = Object.assign({}, configObject);
     var xhr = new XMLHttpRequest();
     configObject.url = config.baseUrlForAJAXQuery + configObject.url;
     if(configObject.method === 'GET' && configObject.body){
